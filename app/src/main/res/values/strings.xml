@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Unknown Traveller</string>
+    <string name="group_name">Group name</string>
+    <string name="transition_name_bottom_bar">0000</string>
+    <string name="message">Message</string>
+    <string name="todo">TODO</string>
 </resources>
