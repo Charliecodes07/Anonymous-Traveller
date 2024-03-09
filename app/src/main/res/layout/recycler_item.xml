@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#3e4670"
+        android:layout_height="150dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/recImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/upload"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
+
+        <TextView
+            android:id="@+id/recTitle"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/recImage"
+            android:text="Title"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/recPriority"
+            android:layout_width="80dp"
+            android:layout_height="30sp"
+            android:text="Priority"
+            android:layout_toEndOf="@+id/recTitle"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="90dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="19dp"/>
+
+        <TextView
+            android:id="@+id/recDesc"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Desc"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_toEndOf="@+id/recImage"
+            android:layout_below="@+id/recTitle"
+            android:layout_marginStart="20dp"
+            android:maxLines="2"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
