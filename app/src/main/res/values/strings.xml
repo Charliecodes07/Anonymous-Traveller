@@ -4,4 +4,8 @@
     <string name="transition_name_bottom_bar">0000</string>
     <string name="message">Message</string>
     <string name="todo">TODO</string>
+    <string name="write_message_here" />
+    <string name="username" />
+    <string name="_3" />
+    <string name="Username">Username</string>
 </resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "639703124227",
+    "firebase_url": "https://unknown-traveller-3ad86-default-rtdb.firebaseio.com",
+    "project_id": "unknown-traveller-3ad86",
+    "storage_bucket": "unknown-traveller-3ad86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639703124227:android:4100a4d52c43ce95164136",
+        "android_client_info": {
+          "package_name": "com.example.unknowntraveller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgDTtRu0YxBvHn8PhfdF1Ul96Hk-56APY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
